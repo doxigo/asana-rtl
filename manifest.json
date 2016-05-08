@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "Asana RTL",
+  "description": "Makes Asana.com interface RTL, suited for Persian or Arabic language, Font used is BYekan.",
+  "version": "1.1.1",
+  "homepage_url": "http://netraz.com",
+  "author": "Sohail Lajevardi doxgio@gmail.com",
+  "minimum_chrome_version": "16.0",
+
+  "permissions": [
+    "https://app.asana.com/0/*"
+  ],
+    "content_scripts": [
+    {
+      "matches": ["https://app.asana.com/0/*"],
+      "css": ["asana-rtl.css"]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "asana-logo-128.png",
+    "default_popup": "popup.html",
+    "default_title": "Asana RTL Interface"
+  },
+
+  "icons": { "16": "asana-logo-16.png",
+             "32": "asana-logo-32.png",
+             "64": "asana-logo-32.png",
+             "128": "asana-logo-128.png" }
+
+}

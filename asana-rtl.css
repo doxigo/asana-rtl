@@ -1,0 +1,60 @@
+/* Asana.com RTL Interface by Sohail Lajevardi, V-1.0 */
+body {
+	font-family: B Yekan, Iranian Sans, "proxima-nova","Helvetica Neue",Arial,sans-serif !important;
+}
+
+.itemRowView-potToken--pill, .detailsPaneProjectTokenizerView-token .luna1Token--pill, .taskTagsView-tokenArea .tokenView {
+	font-family: B Yekan, Iranian Sans, "proxima-nova","Helvetica Neue",Arial,sans-serif !important;
+}
+
+#grid .task-row, #grid .grid_pseudorow_no_prioritized,
+.referenced-task-row-view, .blockStoryView-body .comment-text,
+.details-pane-title .header-name,
+.notification-header .notification-title,
+.taskDetailsView-description .field-description {
+	font-family: B Yekan, Iranian Sans, "proxima-nova","Helvetica Neue",Arial,sans-serif !important;
+	direction: rtl;
+	text-align: right;
+}
+
+.taskCommentsView-autogrowHypertext .placeholder-text, .taskCommentsView-placeholder {
+	direction: rtl;
+	text-align: right;
+	padding: 5px 10px 0 0 !important;
+}
+
+.taskCommentsView-composer.focused:not(.override-focus-border),.taskCommentsView-composer:focus:not(.override-focus-border) {
+	direction: rtl;
+	text-align: right;
+	padding: 5px 10px 0 0;
+}
+
+.autogrow-textarea .placeholder-text {
+	text-align: right;
+	padding: 5px 10px 0 0 !important;
+}
+
+.task-row-overlay {
+  margin: 0 auto 0 0 !important;
+}
+
+#Flags.enable_no_flexbox_in_grid .grid-uncompact .grid-cell {
+  padding-right: 0.1em;
+}
+
+.streamlined-quick-add-view .property-sheet-view .property:not(.projects).name .generic-input, .form-row .body .generic-input {
+	direction: rtl;
+	padding-right: 1em;
+}
+
+.streamlined-quick-add-view .property-sheet-view .property.assignee_and_projects .token-area.generic-input.projects, .streamlined-quick-add-view .property-sheet-view .property:not(.projects) .generic-input, .streamlined-quick-add-view .property-sheet-view .property:not(.projects) textarea:not(.token-input) {
+	padding-right: 1em;
+}
+
+.streamlined-quick-add-view .property-sheet-view .property:not(.projects) .generic-input, .streamlined-quick-add-view .property-sheet-view .property:not(.projects) textarea:not(.token-input), .react-mount-node .textInput.textInput--large, .react-mount-node .textInput.textInput--invalid, .react-mount-node .textInput.textInput--invalid:hover, .react-mount-node .textInput.textInput--invalid:focus, .react-mount-node .newProjectDialogContent-descriptionInput {
+	direction: rtl;
+}
+
+.navigationDockItemView-label {
+	line-height: 2;
+}
