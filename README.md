@@ -1,4 +1,4 @@
-Producteev.com-RTL-Chrome-extension
+Asana.com Right to Left Chrome Extension
 ===================================
 
 Makes Asana.com workspace interface RTL, suited for Persian language
