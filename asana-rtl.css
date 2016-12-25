@@ -1,18 +1,31 @@
-/* Asana.com RTL Interface by Sohail Lajevardi, V-1.0 */
-body {
-	font-family: B Yekan, Iranian Sans, "proxima-nova","Helvetica Neue",Arial,sans-serif !important;
+/* Asana.com RTL Interface by Sohail Lajevardi, V-1.2*/
+
+body, .itemRowView-potToken {
+	font-family: "Vazir", "IRAN Sans Light", "Yekan", "B Yekan+", "B Yekan", "yekan", "Iranian Sans", "IRAN Sans", "proxima-nova","Helvetica Neue",Arial,sans-serif !important;
 }
 
-.itemRowView-potToken--pill, .detailsPaneProjectTokenizerView-token .luna1Token--pill, .taskTagsView-tokenArea .tokenView {
-	font-family: B Yekan, Iranian Sans, "proxima-nova","Helvetica Neue",Arial,sans-serif !important;
+.ancestry-container .ancestor-link, .full-width-header.full-width-header--expanded .header-name.read-only {
+	font-family: "Vazir", "IRAN Sans Light", "Yekan", "B Yekan+", "B Yekan", "yekan", "Iranian Sans", "IRAN Sans", "proxima-nova","Helvetica Neue",Arial,sans-serif !important;
+}
+
+.itemRowView-potToken--pill, .detailsPaneProjectTokenizerView-token .luna1Token--pill, .taskTagsView-tokenArea .tokenView, .grid-row-selected:not(.focused) .itemRowView-potToken.potColor-background--NONE {
+	font-family: "Vazir", "IRAN Sans Light", "Yekan", "B Yekan+", "B Yekan", "yekan", "Iranian Sans", "IRAN Sans", "proxima-nova","Helvetica Neue",Arial,sans-serif !important;
 }
 
 #grid .task-row, #grid .grid_pseudorow_no_prioritized,
 .referenced-task-row-view, .blockStoryView-body .comment-text,
 .details-pane-title .header-name,
 .notification-header .notification-title,
-.taskDetailsView-description .field-description {
-	font-family: B Yekan, Iranian Sans, "proxima-nova","Helvetica Neue",Arial,sans-serif !important;
+.taskDetailsView-description .field-description,
+.react-mount-node .SingleTaskTitleRow-taskName .autogrowTextarea-input, .react-mount-node .SingleTaskTitleRow-taskName .autogrowTextarea-shadow,
+.react-mount-node .richText,
+.message-view .subject-link,
+.message-view .comment-text,
+.message-composer-form .composer-input-wrap .field-description.subject,
+.react-mount-node .TaskCommentComposer.is-collapsed .TaskCommentComposer-textEditor .ql-editor,
+.react-mount-node .TaskCommentComposer,
+.react-mount-node .TaskCommentComposer-textEditor {
+	font-family: "Vazir", "IRAN Sans Light", "Yekan", "B Yekan+", "B Yekan", "yekan", "Iranian Sans", "IRAN Sans", "proxima-nova","Helvetica Neue",Arial,sans-serif !important;
 	direction: rtl;
 	text-align: right;
 }
@@ -57,4 +70,18 @@ body {
 
 .navigationDockItemView-label {
 	line-height: 2;
+}
+
+.react-mount-node .taskName-input,
+.react-mount-node .truncatedRichText {
+    text-align: right;
+}
+
+.react-mount-node .truncatedRichText-richText {
+    display: block !important;
+}
+
+.message-view.big-message {
+	text-align: right;
+	direction: rtl;
 }
