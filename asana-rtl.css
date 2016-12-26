@@ -64,7 +64,8 @@ body, .itemRowView-potToken {
 	padding-right: 1em;
 }
 
-.streamlined-quick-add-view .property-sheet-view .property:not(.projects) .generic-input, .streamlined-quick-add-view .property-sheet-view .property:not(.projects) textarea:not(.token-input), .react-mount-node .textInput.textInput--large, .react-mount-node .textInput.textInput--invalid, .react-mount-node .textInput.textInput--invalid:hover, .react-mount-node .textInput.textInput--invalid:focus, .react-mount-node .newProjectDialogContent-descriptionInput {
+.streamlined-quick-add-view .property-sheet-view .property:not(.projects) .generic-input, .streamlined-quick-add-view .property-sheet-view .property:not(.projects) textarea:not(.token-input), .react-mount-node .textInput.textInput--large, .react-mount-node .textInput.textInput--invalid, .react-mount-node .textInput.textInput--invalid:hover, .react-mount-node .textInput.textInput--invalid:focus, .react-mount-node .newProjectDialogContent-descriptionInput,
+.react-mount-node .taskName-input {
 	direction: rtl;
 }
 
@@ -84,4 +85,8 @@ body, .itemRowView-potToken {
 .message-view.big-message {
 	text-align: right;
 	direction: rtl;
+}
+
+.messageView-byText {
+	margin-top: 5px;
 }
