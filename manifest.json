@@ -3,7 +3,7 @@
 
   "name": "Asana RTL",
   "description": "Makes Asana.com interface RTL, suited for Persian language, Install one of the following fonts: Vazir, IRAN Sans Light or Yekan",
-  "version": "1.3.4",
+  "version": "1.3.4.1",
   "homepage_url": "http://milaniz.com",
   "author": "Sohail Lajevardi doxgio@gmail.com",
   "minimum_chrome_version": "16.0",
