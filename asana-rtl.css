@@ -11,7 +11,8 @@ body, .itemRowView-potToken {
 .itemRowView-potToken--pill, .detailsPaneProjectTokenizerView-token .luna1Token--pill, .taskTagsView-tokenArea .tokenView, .grid-row-selected:not(.focused) .itemRowView-potToken.potColor-background--NONE,
 .react-mount-node .Token-label, .taskTags, .taskTags.is-focused,
 .react-mount-node .Pill.Pill--small,
-.react-mount-node .Tokenizer {
+.react-mount-node .Tokenizer,
+.react-mount-node .Pill.Pill--large {
 	font-family: "Vazir", "IRAN Sans Light", "Yekan", "B Yekan+", "B Yekan", "yekan", "Iranian Sans", "IRAN Sans", "proxima-nova","Helvetica Neue",Arial,sans-serif !important;
 }
 
@@ -82,7 +83,9 @@ body, .itemRowView-potToken {
 }
 
 .react-mount-node .taskName-input,
-.react-mount-node .truncatedRichText {
+.react-mount-node .truncatedRichText,
+.react-mount-node .PotTaskRow-parentTaskName,
+.react-mount-node .TaskAncestry-ancestor {
     text-align: right;
 }
 
@@ -101,4 +104,8 @@ body, .itemRowView-potToken {
 
 .react-mount-node .subtaskTaskRow-detailsButton {
 	margin-right: -20px;
+}
+
+.react-mount-node .PotTaskRow-parentTaskName {
+	flex-grow: 0;
 }
