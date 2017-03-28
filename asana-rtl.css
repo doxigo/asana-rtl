@@ -1,27 +1,33 @@
-/* Asana.com RTL Interface by Sohail Lajevardi, V-1.2*/
-
-body, .itemRowView-potToken {
-	font-family: "Vazir", "IRAN Sans Light", "Yekan", "B Yekan+", "B Yekan", "yekan", "Iranian Sans", "IRAN Sans", "proxima-nova","Helvetica Neue",Arial,sans-serif !important;
-}
-
-.ancestry-container .ancestor-link, .full-width-header.full-width-header--expanded .header-name.read-only {
-	font-family: "Vazir", "IRAN Sans Light", "Yekan", "B Yekan+", "B Yekan", "yekan", "Iranian Sans", "IRAN Sans", "proxima-nova","Helvetica Neue",Arial,sans-serif !important;
-}
-
-.itemRowView-potToken--pill, .detailsPaneProjectTokenizerView-token .luna1Token--pill, .taskTagsView-tokenArea .tokenView, .grid-row-selected:not(.focused) .itemRowView-potToken.potColor-background--NONE,
-.react-mount-node .Token-label, .taskTags, .taskTags.is-focused,
+/* Asana.com RTL Interface by Sohail Lajevardi, V-1.4.1 - March 28th 2017*/
+body,
+.itemRowView-potToken,
+.itemRowView-potToken--pill,
+.detailsPaneProjectTokenizerView-token .luna1Token--pill,
+.taskTagsView-tokenArea .tokenView,
+.grid-row-selected:not(.focused) .itemRowView-potToken.potColor-background--NONE,
+.react-mount-node .Token-label,
+.taskTags,
+.taskTags.is-focused,
 .react-mount-node .Pill.Pill--small,
 .react-mount-node .Tokenizer,
-.react-mount-node .Pill.Pill--large {
+.react-mount-node .Pill.Pill--large,
+.inboxThreadView-token,
+.itemInboxThreadView-token,
+.group_header .drop-indicator .expandable,
+.ancestry-container .ancestor-link,
+.full-width-header.full-width-header--expanded .header-name.read-only {
 	font-family: "Vazir", "IRAN Sans Light", "Yekan", "B Yekan+", "B Yekan", "yekan", "Iranian Sans", "IRAN Sans", "proxima-nova","Helvetica Neue",Arial,sans-serif !important;
 }
 
-#grid .task-row, #grid .grid_pseudorow_no_prioritized,
-.referenced-task-row-view, .blockStoryView-body .comment-text,
+#grid .task-row,
+#grid .grid_pseudorow_no_prioritized,
+.referenced-task-row-view,
+.blockStoryView-body .comment-text,
 .details-pane-title .header-name,
 .notification-header .notification-title,
 .taskDetailsView-description .field-description,
-.react-mount-node .SingleTaskTitleRow-taskName .autogrowTextarea-input, .react-mount-node .SingleTaskTitleRow-taskName .autogrowTextarea-shadow,
+.react-mount-node .SingleTaskTitleRow-taskName .autogrowTextarea-input,
+.react-mount-node .SingleTaskTitleRow-taskName .autogrowTextarea-shadow,
 .react-mount-node .richText,
 .message-view .subject-link,
 .message-view .comment-text,
@@ -33,19 +39,24 @@ body, .itemRowView-potToken {
 .react-mount-node .TaskDescription-textEditor .ql-editor,
 .react-mount-node .simpleTextarea,
 .react-mount-node .subtaskTaskRow,
-.subtaskTaskRow--focused {
+.subtaskTaskRow--focused,
+.dismissable-overlay,
+.ToastNotificationContent-text,
+.ToastNotification-link {
 	font-family: "Vazir", "IRAN Sans Light", "Yekan", "B Yekan+", "B Yekan", "yekan", "Iranian Sans", "IRAN Sans", "proxima-nova","Helvetica Neue",Arial,sans-serif !important;
 	direction: rtl;
 	text-align: right;
 }
 
-.taskCommentsView-autogrowHypertext .placeholder-text, .taskCommentsView-placeholder {
+.taskCommentsView-autogrowHypertext .placeholder-text,
+.taskCommentsView-placeholder {
 	direction: rtl;
 	text-align: right;
 	padding: 5px 10px 0 0 !important;
 }
 
-.taskCommentsView-composer.focused:not(.override-focus-border),.taskCommentsView-composer:focus:not(.override-focus-border) {
+.taskCommentsView-composer.focused:not(.override-focus-border),
+.taskCommentsView-composer:focus:not(.override-focus-border) {
 	direction: rtl;
 	text-align: right;
 	padding: 5px 10px 0 0;
@@ -64,18 +75,34 @@ body, .itemRowView-potToken {
   padding-right: 0.1em;
 }
 
-.streamlined-quick-add-view .property-sheet-view .property:not(.projects).name .generic-input, .form-row .body .generic-input {
+.streamlined-quick-add-view .property-sheet-view .property:not(.projects).name .generic-input,
+.form-row .body .generic-input {
 	direction: rtl;
 	padding-right: 1em;
 }
 
-.streamlined-quick-add-view .property-sheet-view .property.assignee_and_projects .token-area.generic-input.projects, .streamlined-quick-add-view .property-sheet-view .property:not(.projects) .generic-input, .streamlined-quick-add-view .property-sheet-view .property:not(.projects) textarea:not(.token-input) {
+.streamlined-quick-add-view .property-sheet-view .property.assignee_and_projects .token-area.generic-input.projects,
+.streamlined-quick-add-view .property-sheet-view .property:not(.projects) .generic-input,
+.streamlined-quick-add-view .property-sheet-view .property:not(.projects) textarea:not(.token-input) {
 	padding-right: 1em;
 }
 
-.streamlined-quick-add-view .property-sheet-view .property:not(.projects) .generic-input, .streamlined-quick-add-view .property-sheet-view .property:not(.projects) textarea:not(.token-input), .react-mount-node .textInput.textInput--large, .react-mount-node .textInput.textInput--invalid, .react-mount-node .textInput.textInput--invalid:hover, .react-mount-node .textInput.textInput--invalid:focus, .react-mount-node .newProjectDialogContent-descriptionInput,
-.react-mount-node .taskName-input {
+.streamlined-quick-add-view .property-sheet-view .property:not(.projects) .generic-input,
+.streamlined-quick-add-view .property-sheet-view .property:not(.projects) textarea:not(.token-input),
+.react-mount-node .textInput.textInput--large,
+.react-mount-node .textInput.textInput--invalid,
+.react-mount-node .textInput.textInput--invalid:hover,
+.react-mount-node .textInput.textInput--invalid:focus,
+.react-mount-node .newProjectDialogContent-descriptionInput,
+.react-mount-node .taskName-input,
+.group_header,
+.ancestry-container .ancestor,
+.TaskName-input {
 	direction: rtl;
+}
+
+.taskDetailsView-ancestorArrow {
+    transform: rotate(180deg);
 }
 
 .navigationDockItemView-label {
@@ -85,8 +112,30 @@ body, .itemRowView-potToken {
 .react-mount-node .taskName-input,
 .react-mount-node .truncatedRichText,
 .react-mount-node .PotTaskRow-parentTaskName,
-.react-mount-node .TaskAncestry-ancestor {
+.react-mount-node .TaskAncestry-ancestor,
+.TaskName-input {
     text-align: right;
+}
+
+.calendar-task-row:not(.task-row-subtask) .string {
+	text-align: right;
+	direction: rtl;
+}
+
+.typeaheadItem-icon {
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.TaskRow-pots .Pill {
+	text-overflow: clip;
+}
+
+.layerPositioner--right .layerPositioner-layer,
+.layerPositioner--alignLeft .layerPositioner-layer {
+	direction: rtl;
+	left: auto;
+    right: 100%;
 }
 
 .react-mount-node .truncatedRichText-richText {
@@ -108,4 +157,35 @@ body, .itemRowView-potToken {
 
 .react-mount-node .PotTaskRow-parentTaskName {
 	flex-grow: 0;
+}
+
+.SubtaskTaskRow-dueDate {
+	margin-right: 10px;
+}
+
+.TaskRow-completionStatus {
+    margin: 0 0 0 10px !important;
+}
+
+.calendar-task-row .right {
+	margin-left: 5px;
+	margin-right: 3px;
+}
+
+.dropTargetRow .itemRow,
+.dropTargetRow .itemRow-right,
+.dropTargetRow .itemRow-left,
+.attachment-card-metadata {
+    flex-direction: row-reverse;
+}
+
+.attachment-card-links {
+	text-align: right;
+	direction: rtl;
+	margin-right: 0;
+	margin-left: 8px;
+}
+
+.dropTargetRow .itemRow-right {
+	    z-index: 9;
 }
