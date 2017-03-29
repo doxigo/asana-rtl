@@ -15,8 +15,19 @@ body,
 .itemInboxThreadView-token,
 .group_header .drop-indicator .expandable,
 .ancestry-container .ancestor-link,
-.full-width-header.full-width-header--expanded .header-name.read-only {
+.full-width-header.full-width-header--expanded .header-name.read-only,
+#project_pane_header_name {
 	font-family: "Vazir", "IRAN Sans Light", "Yekan", "B Yekan+", "B Yekan", "yekan", "Iranian Sans", "IRAN Sans", "proxima-nova","Helvetica Neue",Arial,sans-serif !important;
+}
+
+#project_pane_header_name {
+	font-size: 0.8em;
+}
+
+.full-width-header.full-width-header--compact .favorite-off,
+.full-width-header.full-width-header--compact .favorite-on {
+	position: relative;
+	bottom: 4px;
 }
 
 #grid .task-row,
@@ -138,6 +149,15 @@ body,
     right: 100%;
 }
 
+.GridScroller-layerContext .layerPositioner--right .layerPositioner-layer,
+.GridScroller-layerContext .layerPositioner--alignLeft .layerPositioner-layer,
+.layerContext.Sidebar .layerPositioner-layer {
+	direction: ltr !important;
+	right: auto !important;
+}
+
+
+
 .react-mount-node .truncatedRichText-richText {
     display: block !important;
 }
@@ -186,6 +206,13 @@ body,
 	margin-left: 8px;
 }
 
+.SidebarItemRowMenu-dropdown {
+	direction: ltr !important;
+	left: 100% !important;
+	right: auto !important;
+}
+
 .dropTargetRow .itemRow-right {
 	    z-index: 9;
+		background-color: #fff;
 }
